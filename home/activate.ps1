@@ -45,8 +45,7 @@ function change_prompt() {
 
 change_prompt
 add_path
-
-$log = "BASE_DIR: " + $BASE_DIR
+$env:wordlists="C:\Users\user0\Desktop\all\sec\字典\wordlists"
+# $log = "BASE_DIR: `t" + $BASE_DIR + "`nENV: `t`t`$env:wordlists `t" + $env:wordlists
+$log = "BASE_DIR: `t" + $BASE_DIR
 Write-Output $log
-
-
