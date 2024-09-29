@@ -1,2 +1,0 @@
-\bin
-\tool\busybox\bin
