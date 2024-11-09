@@ -7,9 +7,12 @@ $env:VIRTUAL_ENV = $VIRTUAL_ENV
 
 function bins() {
     $bins_file = $env:VIRTUAL_ENV + "\bins.txt"
+    Write-Output "BINS:"
     foreach ($line in Get-Content $bins_file) {
-        Write-Output $line
+        $log = "`t- " + $line
+        Write-Output $log
     }
+    Write-Output ''
 }
 function add_path() {
     $bins_file = $env:VIRTUAL_ENV + "\bins.txt"
@@ -42,10 +45,13 @@ function change_prompt() {
     
 }
 
+function c { cmd /c $args }
+
 
 change_prompt
 add_path
-$env:wordlists="C:\Users\user0\Desktop\all\sec\字典\wordlists"
-# $log = "BASE_DIR: `t" + $BASE_DIR + "`nENV: `t`t`$env:wordlists `t" + $env:wordlists
-$log = "BASE_DIR: `t" + $BASE_DIR
+bins
+$env:WD="P:\fr33t\remoulages\Collection\dicts"
+$log = "BASE_DIR: `t" + $BASE_DIR + "`n"+'$'+"ENV:WD: `t`$env:wordlists `t" + $env:wordlists + "`nTry to type 'c sqlmap.py'`n"
+
 Write-Output $log
