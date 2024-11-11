@@ -1,2 +1,22 @@
-\bin
-\tool\busybox\bin
+\remoulages\busybox64u
+\remoulages\Collection\reverse\pyinstxtractor
+\remoulages\Collection\reverse\upx-4.0.2-win64
+\remoulages\Exfiltration\Git类\Git_Extract
+\remoulages\Exfiltration\Git类\GitHack
+\remoulages\Exfiltration\hashcat-6.2.6
+\remoulages\Exfiltration\jwt_tool
+\remoulages\Exfiltration\Volatility\volatility3-2.5.2
+\remoulages\Initial Access\框架漏洞\jwt\jwt-hack\build
+\remoulages\Initial Access\框架漏洞\SpringBoot\SpringBoot-Scan
+\remoulages\Initial Access\框架漏洞\swagger-hack
+\remoulages\Initial Access\cf
+\remoulages\Initial Access\dirsearch
+\remoulages\Initial Access\ffuf
+\remoulages\Initial Access\sqlmap
+\remoulages\Initial Access\SSRFmap
+\remoulages\Initial Access\SSTImap
+\remoulages\Initial Access\XSStrike
+\remoulages\Reconnaissance\JSFinder
+\remoulages\Reconnaissance\OneForAll
+\remoulages\Reconnaissance\sicat
+\remoulages\scripts\php_filter_chain_generator
